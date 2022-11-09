@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ "$check" -le "2" ]
 then
         echo 4294967298 > /sys/module/zfs/parameters/zfs_arc_sys_free
